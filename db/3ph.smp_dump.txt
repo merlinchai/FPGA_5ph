@@ -1,0 +1,6 @@
+
+State Machine - |3ph|three_state_moore_state_machine:inst1|state
+Name state.waiting state.dataTrans state.sync 
+state.sync 0 0 0 
+state.dataTrans 0 1 1 
+state.waiting 1 0 1 

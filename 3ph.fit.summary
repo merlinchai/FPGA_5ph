@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Jul 26 16:27:11 2013
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : 3ph
+Top-level Entity Name : 3ph
+Family : Cyclone III
+Device : EP3C16Q240C8
+Timing Models : Final
+Total logic elements : 10,144 / 15,408 ( 66 % )
+    Total combinational functions : 8,479 / 15,408 ( 55 % )
+    Dedicated logic registers : 4,584 / 15,408 ( 30 % )
+Total registers : 4584
+Total pins : 129 / 161 ( 80 % )
+Total virtual pins : 0
+Total memory bits : 384 / 516,096 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 112 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

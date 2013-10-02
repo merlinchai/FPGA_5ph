@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Jul 26 16:26:08 2013
+Quartus II 64-Bit Version : 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Revision Name : 3ph
+Top-level Entity Name : 3ph
+Family : Cyclone III
+Total logic elements : 10,290
+    Total combinational functions : 8,478
+    Dedicated logic registers : 4,596
+Total registers : 4596
+Total pins : 129
+Total virtual pins : 0
+Total memory bits : 384
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

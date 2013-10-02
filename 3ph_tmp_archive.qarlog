@@ -1,0 +1,38 @@
+Quartus II Archive log --	F:/code/FPGA/3ph_copy/3ph_tmp_archive.qarlog
+
+Archive:	F:/code/FPGA/3ph_copy/3ph_tmp_archive.qar
+Date:		Mon Mar 18 14:27:38 2013
+Quartus II 64-Bit		9.1 Build 222 10/21/2009 SJ Full Version
+
+	=========== Files Selected: ===========
+F:/code/FPGA/3ph/3ph.dpf
+F:/code/FPGA/3ph_copy/3ph.bdf
+F:/code/FPGA/3ph_copy/3ph.dpf
+F:/code/FPGA/3ph_copy/3ph.qpf
+F:/code/FPGA/3ph_copy/3ph.qsf
+F:/code/FPGA/3ph_copy/3ph.vwf
+F:/code/FPGA/3ph_copy/3ph_assignment_defaults.qdf
+F:/code/FPGA/3ph_copy/PLL.bsf
+F:/code/FPGA/3ph_copy/PLL.cmp
+F:/code/FPGA/3ph_copy/PLL.ppf
+F:/code/FPGA/3ph_copy/PLL.qip
+F:/code/FPGA/3ph_copy/PLL.vhd
+F:/code/FPGA/3ph_copy/db/3ph.sim.cvwf
+F:/code/FPGA/3ph_copy/lpm_inv0.bsf
+F:/code/FPGA/3ph_copy/lpm_inv0.cmp
+F:/code/FPGA/3ph_copy/lpm_inv0.qip
+F:/code/FPGA/3ph_copy/lpm_inv0.vhd
+F:/code/FPGA/3ph_copy/source/Single_RAM.vhd
+F:/code/FPGA/3ph_copy/source/Single_RAM_Input.vhd
+F:/code/FPGA/3ph_copy/source/bi_io.vhd
+F:/code/FPGA/3ph_copy/source/state_machine.vhd
+	======= Total: 21 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Mon Mar 18 14:27:41 2013
+Source archive file:	F:/code/FPGA/3ph_copy/3ph_tmp_archive.qar
+Archive was extracted into	F:/code/FPGA/HFL-Conv/
+		 - successfully.
