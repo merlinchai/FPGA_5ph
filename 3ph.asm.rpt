@@ -1,6 +1,6 @@
 Assembler report for 3ph
-Fri Jul 26 16:27:22 2013
-Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Tue Oct 08 15:22:58 2013
+Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/Hardware/FPGA_test/3ph.sof
-  6. Assembler Device Options: D:/Hardware/FPGA_test/3ph.pof
+  5. Assembler Device Options: C:/Hardware/FPGA/FPGA_test/3ph.sof
+  6. Assembler Device Options: C:/Hardware/FPGA/FPGA_test/3ph.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Jul 26 16:27:22 2013 ;
+; Assembler Status      ; Successful - Tue Oct 08 15:22:58 2013 ;
 ; Revision Name         ; 3ph                                   ;
 ; Top-level Entity Name ; 3ph                                   ;
 ; Family                ; Cyclone III                           ;
@@ -78,53 +78,53 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+-------------------------------+
-; Assembler Generated Files     ;
-+-------------------------------+
-; File Name                     ;
-+-------------------------------+
-; D:/Hardware/FPGA_test/3ph.sof ;
-; D:/Hardware/FPGA_test/3ph.pof ;
-+-------------------------------+
++------------------------------------+
+; Assembler Generated Files          ;
++------------------------------------+
+; File Name                          ;
++------------------------------------+
+; C:/Hardware/FPGA/FPGA_test/3ph.sof ;
+; C:/Hardware/FPGA/FPGA_test/3ph.pof ;
++------------------------------------+
 
 
-+---------------------------------------------------------+
-; Assembler Device Options: D:/Hardware/FPGA_test/3ph.sof ;
-+----------------+----------------------------------------+
-; Option         ; Setting                                ;
-+----------------+----------------------------------------+
-; Device         ; EP3C16Q240C8                           ;
-; JTAG usercode  ; 0xFFFFFFFF                             ;
-; Checksum       ; 0x005DBD96                             ;
-+----------------+----------------------------------------+
++--------------------------------------------------------------+
+; Assembler Device Options: C:/Hardware/FPGA/FPGA_test/3ph.sof ;
++----------------+---------------------------------------------+
+; Option         ; Setting                                     ;
++----------------+---------------------------------------------+
+; Device         ; EP3C16Q240C8                                ;
+; JTAG usercode  ; 0xFFFFFFFF                                  ;
+; Checksum       ; 0x00571683                                  ;
++----------------+---------------------------------------------+
 
 
-+---------------------------------------------------------+
-; Assembler Device Options: D:/Hardware/FPGA_test/3ph.pof ;
-+--------------------+------------------------------------+
-; Option             ; Setting                            ;
-+--------------------+------------------------------------+
-; Device             ; EPCS16                             ;
-; JTAG usercode      ; 0x00000000                         ;
-; Checksum           ; 0x1D442394                         ;
-; Compression Ratio  ; 2                                  ;
-+--------------------+------------------------------------+
++--------------------------------------------------------------+
+; Assembler Device Options: C:/Hardware/FPGA/FPGA_test/3ph.pof ;
++--------------------+-----------------------------------------+
+; Option             ; Setting                                 ;
++--------------------+-----------------------------------------+
+; Device             ; EPCS16                                  ;
+; JTAG usercode      ; 0x00000000                              ;
+; Checksum           ; 0x1D4FF240                              ;
+; Compression Ratio  ; 2                                       ;
++--------------------+-----------------------------------------+
 
 
 +--------------------+
 ; Assembler Messages ;
 +--------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Assembler
+Info: Running Quartus II 32-bit Assembler
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Fri Jul 26 16:27:18 2013
+    Info: Processing started: Tue Oct 08 15:22:54 2013
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off 3ph -c 3ph
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
-Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 429 megabytes
-    Info: Processing ended: Fri Jul 26 16:27:22 2013
+Info: Quartus II 32-bit Assembler was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 329 megabytes
+    Info: Processing ended: Tue Oct 08 15:22:58 2013
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Total CPU time (on all processors): 00:00:04
 
 

@@ -1,6 +1,6 @@
 Analysis & Synthesis report for 3ph
-Fri Jul 26 16:26:08 2013
-Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
+Tue Oct 08 15:21:00 2013
+Quartus II 32-bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
 ---------------------
@@ -66,15 +66,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jul 26 16:26:08 2013      ;
-; Quartus II 64-Bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
+; Analysis & Synthesis Status        ; Successful - Tue Oct 08 15:21:00 2013      ;
+; Quartus II 32-bit Version          ; 13.0.0 Build 156 04/24/2013 SJ Web Edition ;
 ; Revision Name                      ; 3ph                                        ;
 ; Top-level Entity Name              ; 3ph                                        ;
 ; Family                             ; Cyclone III                                ;
-; Total logic elements               ; 10,290                                     ;
-;     Total combinational functions  ; 8,478                                      ;
-;     Dedicated logic registers      ; 4,596                                      ;
-; Total registers                    ; 4596                                       ;
+; Total logic elements               ; 9,440                                      ;
+;     Total combinational functions  ; 7,763                                      ;
+;     Dedicated logic registers      ; 4,276                                      ;
+; Total registers                    ; 4276                                       ;
 ; Total pins                         ; 129                                        ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 384                                        ;
@@ -181,37 +181,37 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                ;
-+--------------------------------------------------------------+-----------------+-------------------------------------------------------+------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path                             ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                       ; Library ;
-+--------------------------------------------------------------+-----------------+-------------------------------------------------------+------------------------------------------------------------------------------------+---------+
-; source/Single_RAM_Input.vhd                                  ; yes             ; User VHDL File                                        ; D:/Hardware/FPGA_test/source/Single_RAM_Input.vhd                                  ;         ;
-; source/state_machine.vhd                                     ; yes             ; User VHDL File                                        ; D:/Hardware/FPGA_test/source/state_machine.vhd                                     ;         ;
-; 3ph.bdf                                                      ; yes             ; User Block Diagram/Schematic File                     ; D:/Hardware/FPGA_test/3ph.bdf                                                      ;         ;
-; PLL.vhd                                                      ; yes             ; User Wizard-Generated File                            ; D:/Hardware/FPGA_test/PLL.vhd                                                      ;         ;
-; source/Single_RAM.vhd                                        ; yes             ; User VHDL File                                        ; D:/Hardware/FPGA_test/source/Single_RAM.vhd                                        ;         ;
-; lpm_inv0.vhd                                                 ; yes             ; User Wizard-Generated File                            ; D:/Hardware/FPGA_test/lpm_inv0.vhd                                                 ;         ;
-; source/bi_io.vhd                                             ; yes             ; User VHDL File                                        ; D:/Hardware/FPGA_test/source/bi_io.vhd                                             ;         ;
-; 74138.bdf                                                    ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/others/maxplus2/74138.bdf                         ;         ;
-; altpll.tdf                                                   ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altpll.tdf                          ;         ;
-; aglobal130.inc                                               ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/aglobal130.inc                      ;         ;
-; stratix_pll.inc                                              ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/stratix_pll.inc                     ;         ;
-; stratixii_pll.inc                                            ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/stratixii_pll.inc                   ;         ;
-; cycloneii_pll.inc                                            ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/cycloneii_pll.inc                   ;         ;
-; db/pll_altpll.v                                              ; yes             ; Auto-Generated Megafunction                           ; D:/Hardware/FPGA_test/db/pll_altpll.v                                              ;         ;
-; lpm_inv.tdf                                                  ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_inv.tdf                         ;         ;
-; altsyncram.tdf                                               ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altsyncram.tdf                      ;         ;
-; stratix_ram_block.inc                                        ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/stratix_ram_block.inc               ;         ;
-; lpm_mux.inc                                                  ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_mux.inc                         ;         ;
-; lpm_decode.inc                                               ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_decode.inc                      ;         ;
-; a_rdenreg.inc                                                ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/a_rdenreg.inc                       ;         ;
-; altrom.inc                                                   ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altrom.inc                          ;         ;
-; altram.inc                                                   ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altram.inc                          ;         ;
-; altdpram.inc                                                 ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altdpram.inc                        ;         ;
-; db/altsyncram_i1l1.tdf                                       ; yes             ; Auto-Generated Megafunction                           ; D:/Hardware/FPGA_test/db/altsyncram_i1l1.tdf                                       ;         ;
-; db/3ph.ram0_three_state_moore_state_machine_a38354af.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; D:/Hardware/FPGA_test/db/3ph.ram0_three_state_moore_state_machine_a38354af.hdl.mif ;         ;
-+--------------------------------------------------------------+-----------------+-------------------------------------------------------+------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                     ;
++--------------------------------------------------------------+-----------------+-------------------------------------------------------+-----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                             ; Used in Netlist ; File Type                                             ; File Name with Absolute Path                                                            ; Library ;
++--------------------------------------------------------------+-----------------+-------------------------------------------------------+-----------------------------------------------------------------------------------------+---------+
+; source/Single_RAM_Input.vhd                                  ; yes             ; User VHDL File                                        ; C:/Hardware/FPGA/FPGA_test/source/Single_RAM_Input.vhd                                  ;         ;
+; source/state_machine.vhd                                     ; yes             ; User VHDL File                                        ; C:/Hardware/FPGA/FPGA_test/source/state_machine.vhd                                     ;         ;
+; 3ph.bdf                                                      ; yes             ; User Block Diagram/Schematic File                     ; C:/Hardware/FPGA/FPGA_test/3ph.bdf                                                      ;         ;
+; PLL.vhd                                                      ; yes             ; User Wizard-Generated File                            ; C:/Hardware/FPGA/FPGA_test/PLL.vhd                                                      ;         ;
+; source/Single_RAM.vhd                                        ; yes             ; User VHDL File                                        ; C:/Hardware/FPGA/FPGA_test/source/Single_RAM.vhd                                        ;         ;
+; lpm_inv0.vhd                                                 ; yes             ; User Wizard-Generated File                            ; C:/Hardware/FPGA/FPGA_test/lpm_inv0.vhd                                                 ;         ;
+; source/bi_io.vhd                                             ; yes             ; User VHDL File                                        ; C:/Hardware/FPGA/FPGA_test/source/bi_io.vhd                                             ;         ;
+; 74138.bdf                                                    ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/others/maxplus2/74138.bdf                              ;         ;
+; altpll.tdf                                                   ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altpll.tdf                               ;         ;
+; aglobal130.inc                                               ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/aglobal130.inc                           ;         ;
+; stratix_pll.inc                                              ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/stratix_pll.inc                          ;         ;
+; stratixii_pll.inc                                            ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/stratixii_pll.inc                        ;         ;
+; cycloneii_pll.inc                                            ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/cycloneii_pll.inc                        ;         ;
+; db/pll_altpll.v                                              ; yes             ; Auto-Generated Megafunction                           ; C:/Hardware/FPGA/FPGA_test/db/pll_altpll.v                                              ;         ;
+; lpm_inv.tdf                                                  ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_inv.tdf                              ;         ;
+; altsyncram.tdf                                               ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altsyncram.tdf                           ;         ;
+; stratix_ram_block.inc                                        ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/stratix_ram_block.inc                    ;         ;
+; lpm_mux.inc                                                  ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_mux.inc                              ;         ;
+; lpm_decode.inc                                               ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/lpm_decode.inc                           ;         ;
+; a_rdenreg.inc                                                ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/a_rdenreg.inc                            ;         ;
+; altrom.inc                                                   ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altrom.inc                               ;         ;
+; altram.inc                                                   ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altram.inc                               ;         ;
+; altdpram.inc                                                 ; yes             ; Megafunction                                          ; c:/altera/13.0/quartus/libraries/megafunctions/altdpram.inc                             ;         ;
+; db/altsyncram_i1l1.tdf                                       ; yes             ; Auto-Generated Megafunction                           ; C:/Hardware/FPGA/FPGA_test/db/altsyncram_i1l1.tdf                                       ;         ;
+; db/3ph.ram0_three_state_moore_state_machine_a38354af.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Hardware/FPGA/FPGA_test/db/3ph.ram0_three_state_moore_state_machine_a38354af.hdl.mif ;         ;
++--------------------------------------------------------------+-----------------+-------------------------------------------------------+-----------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -219,20 +219,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-----------------------------------------------------------------------------+
 ; Resource                                    ; Usage                                                                       ;
 +---------------------------------------------+-----------------------------------------------------------------------------+
-; Estimated Total logic elements              ; 10,290                                                                      ;
+; Estimated Total logic elements              ; 9,440                                                                       ;
 ;                                             ;                                                                             ;
-; Total combinational functions               ; 8478                                                                        ;
+; Total combinational functions               ; 7763                                                                        ;
 ; Logic element usage by number of LUT inputs ;                                                                             ;
-;     -- 4 input functions                    ; 1316                                                                        ;
-;     -- 3 input functions                    ; 5737                                                                        ;
-;     -- <=2 input functions                  ; 1425                                                                        ;
+;     -- 4 input functions                    ; 1290                                                                        ;
+;     -- 3 input functions                    ; 5261                                                                        ;
+;     -- <=2 input functions                  ; 1212                                                                        ;
 ;                                             ;                                                                             ;
 ; Logic elements by mode                      ;                                                                             ;
-;     -- normal mode                          ; 4081                                                                        ;
-;     -- arithmetic mode                      ; 4397                                                                        ;
+;     -- normal mode                          ; 3836                                                                        ;
+;     -- arithmetic mode                      ; 3927                                                                        ;
 ;                                             ;                                                                             ;
-; Total registers                             ; 4596                                                                        ;
-;     -- Dedicated logic registers            ; 4596                                                                        ;
+; Total registers                             ; 4276                                                                        ;
+;     -- Dedicated logic registers            ; 4276                                                                        ;
 ;     -- I/O registers                        ; 0                                                                           ;
 ;                                             ;                                                                             ;
 ; I/O pins                                    ; 129                                                                         ;
@@ -242,9 +242,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- PLLs                                 ; 1                                                                           ;
 ;                                             ;                                                                             ;
 ; Maximum fan-out node                        ; PLL:inst|altpll:altpll_component|PLL_altpll:auto_generated|wire_pll1_clk[0] ;
-; Maximum fan-out                             ; 4610                                                                        ;
-; Total fan-out                               ; 39166                                                                       ;
-; Average fan-out                             ; 2.93                                                                        ;
+; Maximum fan-out                             ; 4290                                                                        ;
+; Total fan-out                               ; 36278                                                                       ;
+; Average fan-out                             ; 2.94                                                                        ;
 +---------------------------------------------+-----------------------------------------------------------------------------+
 
 
@@ -253,16 +253,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                            ; Library Name ;
 +---------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------+--------------+
-; |3ph                                        ; 8478 (1)          ; 4596 (0)     ; 384         ; 0            ; 0       ; 0         ; 129  ; 0            ; |3ph                                                                                           ;              ;
+; |3ph                                        ; 7763 (1)          ; 4276 (0)     ; 384         ; 0            ; 0       ; 0         ; 129  ; 0            ; |3ph                                                                                           ;              ;
 ;    |PLL:inst|                               ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|PLL:inst                                                                                  ;              ;
 ;       |altpll:altpll_component|             ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|PLL:inst|altpll:altpll_component                                                          ;              ;
 ;          |PLL_altpll:auto_generated|        ; 0 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|PLL:inst|altpll:altpll_component|PLL_altpll:auto_generated                                ;              ;
 ;    |single_port_ram_input_with_init:inst20| ; 931 (931)         ; 576 (576)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_input_with_init:inst20                                                    ;              ;
-;    |single_port_ram_with_init:inst10|       ; 1542 (1542)       ; 797 (797)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst10                                                          ;              ;
-;    |single_port_ram_with_init:inst11|       ; 1471 (1471)       ; 780 (780)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst11                                                          ;              ;
-;    |single_port_ram_with_init:inst12|       ; 1471 (1471)       ; 780 (780)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst12                                                          ;              ;
-;    |single_port_ram_with_init:inst13|       ; 1471 (1471)       ; 780 (780)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst13                                                          ;              ;
-;    |single_port_ram_with_init:inst14|       ; 1472 (1472)       ; 780 (780)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst14                                                          ;              ;
+;    |single_port_ram_with_init:inst10|       ; 1399 (1399)       ; 733 (733)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst10                                                          ;              ;
+;    |single_port_ram_with_init:inst11|       ; 1328 (1328)       ; 716 (716)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst11                                                          ;              ;
+;    |single_port_ram_with_init:inst12|       ; 1328 (1328)       ; 716 (716)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst12                                                          ;              ;
+;    |single_port_ram_with_init:inst13|       ; 1328 (1328)       ; 716 (716)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst13                                                          ;              ;
+;    |single_port_ram_with_init:inst14|       ; 1329 (1329)       ; 716 (716)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|single_port_ram_with_init:inst14                                                          ;              ;
 ;    |three_state_moore_state_machine:inst1|  ; 119 (119)         ; 103 (103)    ; 384         ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|three_state_moore_state_machine:inst1                                                     ;              ;
 ;       |altsyncram:ram_rtl_0|                ; 0 (0)             ; 0 (0)        ; 384         ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|three_state_moore_state_machine:inst1|altsyncram:ram_rtl_0                                ;              ;
 ;          |altsyncram_i1l1:auto_generated|   ; 0 (0)             ; 0 (0)        ; 384         ; 0            ; 0       ; 0         ; 0    ; 0            ; |3ph|three_state_moore_state_machine:inst1|altsyncram:ram_rtl_0|altsyncram_i1l1:auto_generated ;              ;
@@ -279,18 +279,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+--------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                     ;
-+--------+--------------+---------+--------------+--------------+----------------------+------------------------------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance      ; IP Include File                    ;
-+--------+--------------+---------+--------------+--------------+----------------------+------------------------------------+
-; Altera ; ALTPLL       ; 9.1     ; N/A          ; N/A          ; |3ph|PLL:inst        ; D:/Hardware/FPGA_test/PLL.vhd      ;
-; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst2  ; D:/Hardware/FPGA_test/lpm_inv0.vhd ;
-; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst3  ; D:/Hardware/FPGA_test/lpm_inv0.vhd ;
-; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst5  ; D:/Hardware/FPGA_test/lpm_inv0.vhd ;
-; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst9  ; D:/Hardware/FPGA_test/lpm_inv0.vhd ;
-; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst15 ; D:/Hardware/FPGA_test/lpm_inv0.vhd ;
-+--------+--------------+---------+--------------+--------------+----------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                          ;
++--------+--------------+---------+--------------+--------------+----------------------+-----------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance      ; IP Include File                         ;
++--------+--------------+---------+--------------+--------------+----------------------+-----------------------------------------+
+; Altera ; ALTPLL       ; 9.1     ; N/A          ; N/A          ; |3ph|PLL:inst        ; C:/Hardware/FPGA/FPGA_test/PLL.vhd      ;
+; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst2  ; C:/Hardware/FPGA/FPGA_test/lpm_inv0.vhd ;
+; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst3  ; C:/Hardware/FPGA/FPGA_test/lpm_inv0.vhd ;
+; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst5  ; C:/Hardware/FPGA/FPGA_test/lpm_inv0.vhd ;
+; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst9  ; C:/Hardware/FPGA/FPGA_test/lpm_inv0.vhd ;
+; Altera ; LPM_INV      ; 9.1     ; N/A          ; N/A          ; |3ph|lpm_inv0:inst15 ; C:/Hardware/FPGA/FPGA_test/lpm_inv0.vhd ;
++--------+--------------+---------+--------------+--------------+----------------------+-----------------------------------------+
 
 
 Encoding Type:  One-Hot
@@ -398,12 +398,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 4596  ;
+; Total registers                              ; 4276  ;
 ; Number of registers using Synchronous Clear  ; 60    ;
 ; Number of registers using Synchronous Load   ; 1     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 4438  ;
+; Number of registers using Clock Enable       ; 4118  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -431,9 +431,9 @@ Encoding Type:  One-Hot
 ; single_port_ram_with_init:inst10|ram[19][1] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[19][0] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[17][4] ; 1       ;
+; single_port_ram_with_init:inst10|ram[17][0] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[18][4] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[18][1] ; 1       ;
-; single_port_ram_with_init:inst10|ram[17][0] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[16][4] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[15][3] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[15][2] ; 1       ;
@@ -445,15 +445,10 @@ Encoding Type:  One-Hot
 ; single_port_ram_with_init:inst10|ram[14][2] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[14][1] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[13][0] ; 1       ;
-; single_port_ram_with_init:inst10|ram[11][3] ; 1       ;
-; single_port_ram_with_init:inst10|ram[12][3] ; 1       ;
-; single_port_ram_with_init:inst10|ram[12][2] ; 1       ;
-; single_port_ram_with_init:inst10|ram[11][1] ; 1       ;
-; single_port_ram_with_init:inst10|ram[11][0] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[9][3]  ; 1       ;
+; single_port_ram_with_init:inst10|ram[9][0]  ; 1       ;
 ; single_port_ram_with_init:inst10|ram[10][3] ; 1       ;
 ; single_port_ram_with_init:inst10|ram[10][1] ; 1       ;
-; single_port_ram_with_init:inst10|ram[9][0]  ; 1       ;
 ; single_port_ram_with_init:inst10|ram[8][3]  ; 1       ;
 ; single_port_ram_with_init:inst10|ram[7][2]  ; 1       ;
 ; single_port_ram_with_init:inst10|ram[7][1]  ; 1       ;
@@ -485,9 +480,9 @@ Encoding Type:  One-Hot
 ; single_port_ram_with_init:inst11|ram[19][1] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[19][0] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[17][4] ; 1       ;
+; single_port_ram_with_init:inst11|ram[17][0] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[18][4] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[18][1] ; 1       ;
-; single_port_ram_with_init:inst11|ram[17][0] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[16][4] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[15][3] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[15][2] ; 1       ;
@@ -499,21 +494,26 @@ Encoding Type:  One-Hot
 ; single_port_ram_with_init:inst11|ram[14][2] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[14][1] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[13][0] ; 1       ;
-; single_port_ram_with_init:inst11|ram[11][3] ; 1       ;
-; single_port_ram_with_init:inst11|ram[12][3] ; 1       ;
-; single_port_ram_with_init:inst11|ram[12][2] ; 1       ;
-; single_port_ram_with_init:inst11|ram[11][1] ; 1       ;
-; single_port_ram_with_init:inst11|ram[11][0] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[9][3]  ; 1       ;
+; single_port_ram_with_init:inst11|ram[9][0]  ; 1       ;
 ; single_port_ram_with_init:inst11|ram[10][3] ; 1       ;
 ; single_port_ram_with_init:inst11|ram[10][1] ; 1       ;
-; single_port_ram_with_init:inst11|ram[9][0]  ; 1       ;
 ; single_port_ram_with_init:inst11|ram[8][3]  ; 1       ;
 ; single_port_ram_with_init:inst11|ram[7][2]  ; 1       ;
 ; single_port_ram_with_init:inst11|ram[7][1]  ; 1       ;
 ; single_port_ram_with_init:inst11|ram[7][0]  ; 1       ;
 ; single_port_ram_with_init:inst11|ram[5][2]  ; 1       ;
-; Total number of inverted registers = 350*   ;         ;
+; single_port_ram_with_init:inst11|ram[6][2]  ; 1       ;
+; single_port_ram_with_init:inst11|ram[6][1]  ; 1       ;
+; single_port_ram_with_init:inst11|ram[5][0]  ; 1       ;
+; single_port_ram_with_init:inst11|ram[4][2]  ; 1       ;
+; single_port_ram_with_init:inst11|ram[3][1]  ; 1       ;
+; single_port_ram_with_init:inst11|ram[3][0]  ; 1       ;
+; single_port_ram_with_init:inst11|ram[2][1]  ; 1       ;
+; single_port_ram_with_init:inst11|ram[1][0]  ; 1       ;
+; single_port_ram_with_init:inst12|ram[23][4] ; 1       ;
+; single_port_ram_with_init:inst12|ram[24][4] ; 1       ;
+; Total number of inverted registers = 325*   ;         ;
 +---------------------------------------------+---------+
 * Table truncated at 100 items. To change the number of inverted registers reported, set the "Number of Inverted Registers Reported" option under Assignments->Settings->Analysis and Synthesis Settings->More Settings
 
@@ -524,61 +524,66 @@ Encoding Type:  One-Hot
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                 ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------+
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |3ph|three_state_moore_state_machine:inst1|output_buff[19] ;
-; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |3ph|three_state_moore_state_machine:inst1|output_buff[16] ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[24][7]     ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[23][3]     ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |3ph|three_state_moore_state_machine:inst1|output_buff[15] ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |3ph|single_port_ram_with_init:inst10|PWMA[5]              ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |3ph|single_port_ram_with_init:inst11|PWMA[4]              ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |3ph|single_port_ram_with_init:inst12|PWMA[4]              ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |3ph|single_port_ram_with_init:inst13|PWMA[4]              ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; Yes        ; |3ph|single_port_ram_with_init:inst14|PWMA[5]              ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[24][12]    ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[23][12]    ;
 ; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[22][3]     ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[21][12]    ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[20][12]    ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[19][7]     ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[18][7]     ;
-; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[17][8]     ;
-; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[16][8]     ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[15][7]     ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[14][6]     ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[13][9]     ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[12][4]     ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[11][10]    ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[10][14]    ;
-; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[9][6]      ;
-; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[8][4]      ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[7][10]     ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[6][7]      ;
-; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[5][14]     ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[21][10]    ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[20][9]     ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[19][9]     ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[18][10]    ;
+; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[17][15]    ;
+; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[16][15]    ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[15][4]     ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[14][15]    ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[13][15]    ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[10][13]    ;
+; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[9][4]      ;
+; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[8][7]      ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[7][13]     ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[6][13]     ;
+; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[5][13]     ;
 ; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[4][13]     ;
 ; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[3][13]     ;
 ; 5:1                ; 14 bits   ; 42 LEs        ; 14 LEs               ; 28 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[2][13]     ;
 ; 5:1                ; 15 bits   ; 45 LEs        ; 15 LEs               ; 30 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[1][13]     ;
 ; 5:1                ; 15 bits   ; 45 LEs        ; 15 LEs               ; 30 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[0][13]     ;
-; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[25][2]     ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[26][11]    ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[27][12]    ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[28][8]     ;
-; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[29][10]    ;
-; 5:1                ; 11 bits   ; 33 LEs        ; 11 LEs               ; 22 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[30][7]     ;
-; 5:1                ; 11 bits   ; 33 LEs        ; 11 LEs               ; 22 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[31][10]    ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[11][12]    ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[12][12]    ;
+; 5:1                ; 13 bits   ; 39 LEs        ; 13 LEs               ; 26 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[25][10]    ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[26][6]     ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[27][6]     ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[28][12]    ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 12 LEs               ; 24 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[29][7]     ;
+; 5:1                ; 11 bits   ; 33 LEs        ; 11 LEs               ; 22 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[30][6]     ;
+; 5:1                ; 11 bits   ; 33 LEs        ; 11 LEs               ; 22 LEs                 ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[31][14]    ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 2 LEs                ; 4 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[24][3]     ;
 ; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[23][4]     ;
 ; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[22][1]     ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[21][4]     ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[20][4]     ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[21][2]     ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[20][2]     ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[19][1]     ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[18][4]     ;
 ; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[15][1]     ;
 ; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[14][2]     ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[13][2]     ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[12][2]     ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[11][1]     ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[10][1]     ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[7][2]      ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[6][1]      ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[6][2]      ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[11][1]     ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[12][2]     ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 2 LEs                ; 4 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[25][3]     ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[26][1]     ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[27][1]     ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[28][4]     ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[26][4]     ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[27][4]     ;
+; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[28][3]     ;
 ; 5:1                ; 3 bits    ; 9 LEs         ; 6 LEs                ; 3 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[29][4]     ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[30][4]     ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[31][4]     ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[30][1]     ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 8 LEs                ; 4 LEs                  ; Yes        ; |3ph|single_port_ram_input_with_init:inst20|ram[31][1]     ;
 ; 16:1               ; 2 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |3ph|single_port_ram_input_with_init:inst20|Mux0           ;
 ; 32:1               ; 16 bits   ; 336 LEs       ; 336 LEs              ; 0 LEs                  ; No         ; |3ph|single_port_ram_input_with_init:inst20|Mux17          ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------+
@@ -1207,7 +1212,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:13     ;
+; Top            ; 00:00:23     ;
 +----------------+--------------+
 
 
@@ -1215,9 +1220,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 64-Bit Analysis & Synthesis
+Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Fri Jul 26 16:25:45 2013
+    Info: Processing started: Tue Oct 08 15:20:29 2013
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off 3ph -c 3ph
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file source/single_ram_input.vhd
@@ -1252,6 +1257,8 @@ Warning (275009): Pin "XA9" not connected
 Warning (275009): Pin "XA8" not connected
 Warning (275008): Primitive "VCC" of instance "inst16" not used
 Info (12128): Elaborating entity "single_port_ram_with_init" for hierarchy "single_port_ram_with_init:inst10"
+Warning (10036): Verilog HDL or VHDL warning at Single_RAM.vhd(109): object "PWMA_W6" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at Single_RAM.vhd(110): object "PWMA_D6" assigned a value but never read
 Info (12128): Elaborating entity "74138" for hierarchy "74138:inst4"
 Info (12130): Elaborated megafunction instantiation "74138:inst4"
 Info (12128): Elaborating entity "PLL" for hierarchy "PLL:inst"
@@ -1387,17 +1394,17 @@ Warning (21074): Design contains 9 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "XA10"
     Warning (15610): No output dependent on input pin "XA9"
     Warning (15610): No output dependent on input pin "XA8"
-Info (21057): Implemented 12437 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 11427 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 23 input pins
     Info (21059): Implemented 66 output pins
     Info (21060): Implemented 40 bidirectional pins
-    Info (21061): Implemented 12295 logic cells
+    Info (21061): Implemented 11285 logic cells
     Info (21064): Implemented 12 RAM segments
     Info (21065): Implemented 1 PLLs
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 31 warnings
-    Info: Peak virtual memory: 537 megabytes
-    Info: Processing ended: Fri Jul 26 16:26:08 2013
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:17
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 33 warnings
+    Info: Peak virtual memory: 372 megabytes
+    Info: Processing ended: Tue Oct 08 15:21:01 2013
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:00:28
 
 

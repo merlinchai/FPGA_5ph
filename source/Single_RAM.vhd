@@ -72,7 +72,7 @@ begin
 
   main:PROCESS
 
-  CONSTANT period: STD_LOGIC_VECTOR(15 downto 0):= X"3A98"; --15000
+  CONSTANT period: STD_LOGIC_VECTOR(15 downto 0):= X"4E20"; --X"3A98"; --15000
   --CONSTANT halfperiod: STD_LOGIC_VECTOR(15 downto 0):="0011101010011000";
   
   
@@ -248,21 +248,37 @@ else
 	end if;
 end if;
 
-IF (PWMA_W6+PWMA_D6<=period) then   
-	IF (count>=PWMA_W6 and count<=(PWMA_W6+PWMA_D6)) THEN
-		 PWMA(5) <= '1';
-	ELSE
+IF (PWMA_W5+PWMA_D5<=period) then   
+	IF (count>=PWMA_W5 and count<=(PWMA_W5+PWMA_D5)) THEN
 		 PWMA(5) <= '0';
+	ELSE
+		 PWMA(5) <= '1';
 	END IF; 
 else
-	if (count<=(PWMA_W6+PWMA_D6-period) and (count>=0)) then
-		PWMA(5) <= '1';
-	elsif (count>(PWMA_W6+PWMA_D6-period) and count<PWMA_W6) then
-		PWMA(5) <= '0';	
-	else
+	if (count<=(PWMA_W5+PWMA_D5-period) and (count>=0)) then
+		PWMA(5) <= '0';
+	elsif (count>(PWMA_W5+PWMA_D5-period) and count<PWMA_W5) then
 		PWMA(5) <= '1';	
+	else
+		PWMA(5) <= '0';	
 	end if;
 end if;
+
+--IF (PWMA_W6+PWMA_D6<=period) then   
+--	IF (count>=PWMA_W6 and count<=(PWMA_W6+PWMA_D6)) THEN
+--		 PWMA(5) <= '1';
+--	ELSE
+--		 PWMA(5) <= '0';
+--	END IF; 
+--else
+--	if (count<=(PWMA_W6+PWMA_D6-period) and (count>=0)) then
+--		PWMA(5) <= '1';
+--	elsif (count>(PWMA_W6+PWMA_D6-period) and count<PWMA_W6) then
+--		PWMA(5) <= '0';	
+--	else
+--		PWMA(5) <= '1';	
+--	end if;
+--end if;
 
 IF (PWMA_W7+PWMA_D7<=period) then   
 	IF (count>=PWMA_W7 and count<=(PWMA_W7+PWMA_D7)) THEN
@@ -298,17 +314,17 @@ end if;
 
 IF (PWMA_W9+PWMA_D9<=period) then   
 	IF (count>=PWMA_W9 and count<=(PWMA_W9+PWMA_D9)) THEN
-		 PWMA(8) <= '1';
-	ELSE
 		 PWMA(8) <= '0';
+	ELSE
+		 PWMA(8) <= '1';
 	END IF; 
 else
 	if (count<=(PWMA_W9+PWMA_D9-period) and (count>=0)) then
-		PWMA(8) <= '1';
+		PWMA(8) <= '0';
 	elsif (count>(PWMA_W9+PWMA_D9-period) and count<PWMA_W9) then
-		PWMA(8) <= '0';	
-	else
 		PWMA(8) <= '1';	
+	else
+		PWMA(8) <= '0';	
 	end if;
 end if;
 
